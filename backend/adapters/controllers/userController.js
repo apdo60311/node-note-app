@@ -1,7 +1,7 @@
 import User from "../../models/user.js";
-import Response from "../../Response/Response.js";
+import Response from "../../utils/Response.js";
 import crypto from "crypto";
-import { sendAnEmail } from "../mailer.mjs";
+import { sendAnEmail } from "../../utils/mailer.mjs";
 
 class UserController {
   static profile = async (req, res) => {

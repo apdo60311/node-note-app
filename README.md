@@ -138,8 +138,6 @@ The project is structured as follows:
     - [authController.js](.\backend\adapters\controllers\authController.js)
     - [noteController.js](.\backend\adapters\controllers\noteController.js)
     - [userController.js](.\backend\adapters\controllers\userController.js)
-  - [repositories/](.\backend\adapters\repositories)
-  - [mailer.mjs](.\backend\adapters\mailer.mjs)
 - [db/](.\backend\db) containes mongodb configurations
   - [connectDB.js](.\backend\db\connectDB.js)
 - [Entities/](.\backend\Entities)
@@ -148,8 +146,9 @@ The project is structured as follows:
   - [note.js](.\backend\models\note.js)
   - [user.js](.\backend\models\user.js)
 
-- [Response/](.\backend\Response)
-  - [Response.js](.\backend\Response\Response.js)
+- [utils/](.\backend\Response)
+  - [Response.js](.\backend\utils\Response.js)
+  - [mailer.mjs](.\backend\utils\mailer.mjs)
 - [routers/](.\backend\routers)
   - [authRouter.js](.\backend\routers\authRouter.js)
   - [notesRouter.js](.\backend\routers\notesRouter.js)

@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import User from "../../models/user.js";
-import Response from "../../Response/Response.js";
+import Response from "../../utils/Response.js";
 
 class AuthController {
   static register = async (req, res) => {

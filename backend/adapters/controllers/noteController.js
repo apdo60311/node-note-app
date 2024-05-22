@@ -1,5 +1,5 @@
 import Note from "../../models/note.js";
-import Response from "../../Response/Response.js";
+import Response from "../../utils/Response.js";
 /**
  * **NoteController** class provides methods for handling all operations related with
  * notes in the application.
